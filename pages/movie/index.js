@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
     let data = null
 
     while(!data || data == null){
